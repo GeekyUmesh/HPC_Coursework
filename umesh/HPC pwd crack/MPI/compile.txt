@@ -1,0 +1,2 @@
+ mpicc -o compilename filename.c time_diff.c -lcrypt    (to compile)
+mpirun -n 3 ./compilename                                (to run)
